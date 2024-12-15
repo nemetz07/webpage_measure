@@ -7,5 +7,5 @@ docker run \
 -v "$(pwd)/config.py:/test/config.py" \
 -v "$(pwd)/output:/test/output" \
 --user pwuser \
-marketsquare/robotframework-browser:latest \
+marketsquare/robotframework-browser:18 \
 bash -c "robot --outputdir /test/output /test"
