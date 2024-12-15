@@ -1,5 +1,5 @@
 # A bongeszo tipusa (chromium, firefox)
-BROWSER = "chromium"
+BROWSER = "firefox"
 # Legyen-e bongeszo ablak (True - nincs, False - van) !!! Docker-ben nem mukodik a False !!!
 HEADLESS = True
 # Kepernyokep keszites az output/log.html-hez (True - igen, False - nem) !!! Nagy tarheyet foglalhat !!!
